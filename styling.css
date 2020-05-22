@@ -1,0 +1,90 @@
+body{
+    background-image: linear-gradient(#f0ead6, #D3D3D3);
+    color: #808080;
+    padding: 50px;
+    font-family: Georgia;
+}
+
+p{
+    text-align:center
+}
+
+h1 {
+    border-bottom: 5px solid #ffffff;
+}
+
+h2 {
+    border-bottom: 3px solid #ffffff;
+}
+
+h3 {
+    border-bottom: 3px solid #ffffff;
+}
+
+#introduction{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+
+#connect{
+    width: 30px;
+    float: right;
+}
+
+#connect1{
+    width: 30px;
+}
+
+#resume{
+    width: 30px;
+    float: right;
+    margin-right: 12.5px;
+    position: relative
+}
+
+#resume1{
+    width: 30px;
+    margin-right: 12.5px;
+    position: relative
+}
+
+#headshot{
+    width: 200px;
+    border: 2px solid black;
+}
+
+#mbp{
+    width: 355.5px;
+    border: 2px solid black;
+}
+
+#sparty{
+    width: 266.75px;
+    border: 2px solid black;
+}
+
+#ohio{
+    width: 275px;
+    border: 2px solid black;
+}
+
+#spartan{
+    width: 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.software{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.involvement{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
