@@ -3,6 +3,7 @@ body{
     color: #808080;
     padding: 50px;
     font-family: Georgia;
+    border: 10px solid white;
 }
 
 p{
