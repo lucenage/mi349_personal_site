@@ -33,8 +33,18 @@ h3 {
     float: right;
 }
 
+#connect:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
 #connect1{
     width: 30px;
+}
+
+#connect1:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
 }
 
 #resume{
@@ -44,30 +54,44 @@ h3 {
     position: relative
 }
 
+#resume:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
 #resume1{
     width: 30px;
     margin-right: 12.5px;
     position: relative
 }
 
+#resume1:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
 #headshot{
     width: 200px;
     border: 2px solid black;
+    border-radius: 2px;
 }
 
 #mbp{
     width: 355.5px;
     border: 2px solid black;
+    border-radius: 2px;
 }
 
 #sparty{
     width: 266.75px;
-    border: 2px solid black;
+    border: 2px solid black;    
+    border-radius: 2px;
 }
 
 #ohio{
     width: 275px;
     border: 2px solid black;
+    border-radius: 2px;
 }
 
 #spartan{
@@ -89,3 +113,34 @@ h3 {
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+  }
+  
+  input[type=submit] {
+    background-color: rgb(145, 145, 145);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 500px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #808080;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
